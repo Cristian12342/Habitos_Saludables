@@ -1,4 +1,4 @@
-package com.mycompany.habitos_saludables.usuario;
+package com.mycompany.habitos_saludables.habito;
 
 public class Habito {
 

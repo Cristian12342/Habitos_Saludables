@@ -2,7 +2,8 @@ package com.mycompany.habitos_saludables.usuario;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.mycompany.habitos_saludables.usuario.Habito;
+
+import com.mycompany.habitos_saludables.habito.Habito;
 public class Usuario {
 
     private int id;
@@ -10,6 +11,7 @@ public class Usuario {
     private String correoElectronico;
     private String password;
     private List<Habito> habitos; // Lista de hábitos
+    private List<com.mycompany.habitos_saludables.registro.RegistroDiario> registros = new ArrayList<>();
 
     // Constructor
     public Usuario(int id, String nombre, String correoElectronico, String password) {
@@ -33,6 +35,10 @@ public class Usuario {
     // Obtener lista de hábitos
     public List<Habito> getHabitos() {
         return habitos;
+    }
+
+    public List<com.mycompany.habitos_saludables.registro.RegistroDiario> getRegistros() {
+        return registros;
     }
 
     // Getters y Setters

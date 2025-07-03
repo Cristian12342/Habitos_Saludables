@@ -1,8 +1,8 @@
 package com.mycompany.habitos_saludables.aplicacion;
 
-import com.mycompany.habitos_saludables.usuario.Habito;
 import com.mycompany.habitos_saludables.usuario.Usuario;
 import com.mycompany.habitos_saludables.registrohabito.RegistroHabito;
+import com.mycompany.habitos_saludables.habito.Habito;
 import com.mycompany.habitos_saludables.notificacion.Notificacion;
 
 public class Aplicacion {
